@@ -1,0 +1,1 @@
+Ce dépôt regroupe des implémentations et analyses autour des algorithmes d'apprentissage automatique, notamment les machines à vecteurs de support (SVM), ainsi que des modèles statistiques avancés comme la régression logistique récursive mais aussi des algorithmes d'optimisations.
