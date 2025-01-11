@@ -1,0 +1,13 @@
+L'ACO (Ant Colony Optimization) est une technique d'optimisation inspirée du comportement des colonies de fourmis lorsqu'elles recherchent la nourriture. Cette méthode repose sur l'utilisation de solutions collaboratives et itératives pour résoudre des problèmes complexes.
+
+Dans ce projet, j'ai appliqué l'algorithme ACO pour optimiser le temps de livraison vers différents points de livraison. Cela revient à résoudre une variante du problème des tournées de véhicules (VRP - Vehicle Routing Problem), qui est un problème NP-Hard.
+
+Quatre fichiers principaux :
+
+    data_simulation.py : Ce fichier est dédié à la simulation des données de livraison. Il génère les points de livraison ainsi que les coûts associés.
+
+    optimisation_aco.py : Ce fichier contient l'implémentation de l'algorithme ACO. Il s'agit du cœur du projet, où nous utilisons ACO pour trouver un chemin optimal à travers                  les points de livraison.
+
+    trajet_simulation.py : Ici, nous simulons une voiture (représentée par un point rouge) qui suit le chemin optimisé, représenté sous forme de graphe pondéré. 
+
+    main.py : Ce fichier sert de point d'entrée pour le projet. Il permet de lancer les différentes fonctions dans l'ordre suivant : simulation des données, exécution de l'algorithme ACO, et visualisation du trajet optimisé.
